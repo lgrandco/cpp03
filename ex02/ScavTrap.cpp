@@ -32,7 +32,7 @@ void ScavTrap::guardGate(void) {
     if (is_guarding) {
         print_color(name + " is already guarding the gate");
     } else {
-        print_color(name + " has entered in gate keeper mode");
+        print_color(name + " is now in gate keeper mode");
         is_guarding = true;
     }
 }
